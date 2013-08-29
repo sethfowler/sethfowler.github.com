@@ -139,8 +139,9 @@ Aug 29 2013 Recent Posts Beginnings GitHub Repos Status updating... @sethfowler 
 
         github.showRepos({
             user: 'sethfowler',
-            count: 3,
+            count: 2,
             skip_forks: true,
+            skip_repos: [ "sethfowler.github.com", "particlecamp", "dot-config", "dot-emacs", "dot-vim", "llvm", "clang" ],
             target: '#gh_repos'
         });
     });

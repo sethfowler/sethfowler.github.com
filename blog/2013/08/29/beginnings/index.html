@@ -192,8 +192,9 @@
 
         github.showRepos({
             user: 'sethfowler',
-            count: 3,
+            count: 2,
             skip_forks: true,
+            skip_repos: [ "sethfowler.github.com", "particlecamp", "dot-config", "dot-emacs", "dot-vim", "llvm", "clang" ],
             target: '#gh_repos'
         });
     });
