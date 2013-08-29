@@ -1,15 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
-        <loc>http://sfowler.github.io/blog/archives/</loc>
+        <loc>http://sethfowler.org/blog/archives/</loc>
         <lastmod>2013-08-27T21:00:29-07:00</lastmod>
     </url>
     <url>
-        <loc>http://sfowler.github.io/</loc>
+        <loc>http://sethfowler.org/</loc>
         <lastmod>2013-08-27T21:00:29-07:00</lastmod>
     </url>
     <url>
-        <loc>http://sfowler.github.io/robots.txt</loc>
+        <loc>http://sethfowler.org/robots.txt</loc>
         <lastmod>2013-08-27T21:00:29-07:00</lastmod>
     </url>
 </urlset>
