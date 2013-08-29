@@ -4,7 +4,7 @@
   <title><![CDATA[Psychic Core Dump]]></title>
   <link href="http://sethfowler.org/atom.xml" rel="self"/>
   <link href="http://sethfowler.org/"/>
-  <updated>2013-08-29T15:04:20-07:00</updated>
+  <updated>2013-08-29T16:01:12-07:00</updated>
   <id>http://sethfowler.org/</id>
   <author>
     <name><![CDATA[Seth Fowler]]></name>
@@ -12,5 +12,16 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Beginnings]]></title>
+    <link href="http://sethfowler.org/blog/2013/08/29/beginnings/"/>
+    <updated>2013-08-29T15:51:00-07:00</updated>
+    <id>http://sethfowler.org/blog/2013/08/29/beginnings</id>
+    <content type="html"><![CDATA[<p>It seems the time has come for me to once again take in hand the blogger&rsquo;s pen.</p>
+
+<p>So here we are, yet another default-theme Octopress blog.</p>
+]]></content>
+  </entry>
   
 </feed>
