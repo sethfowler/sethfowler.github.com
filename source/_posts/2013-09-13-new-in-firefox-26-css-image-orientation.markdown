@@ -33,6 +33,12 @@ interacts with layout in tricky ways. And [server][php]-[side][ruby] [solutions]
 require additional work from developers and don't work with images hosted outside
 of the developer's control.
 
+Edit: It turns out there *is* one browser that does respect the EXIF orientation tag
+by default in HTML documents: Mobile Safari. (And by extension other browsers on
+iOS, like Chrome, which use the same underlying engine.) This is surprising, since
+this isn't standards-compliant behavior, and doesn't match what the desktop versions
+of these browsers do.
+
 CSS To The Rescue
 -----------------
 
@@ -61,8 +67,7 @@ You can provide an angle value to rotate an image by any multiple of 90°:
 image-orientation: 270deg;
 {% endcodeblock %}
 
-This
-can optionally be followed by a horizontal flip using this syntax:
+This can optionally be followed by a horizontal flip using this syntax:
 
 {% codeblock lang:css %}
 image-orientation: 270deg flip;
