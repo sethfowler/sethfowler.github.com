@@ -3,7 +3,7 @@ layout: post
 title: "CSS Image Orientation Lands in Firefox 26"
 date: 2013-09-13 15:07
 comments: true
-categories: 
+categories: mozilla
 ---
 
 It's never been easier to share your digital photos on the web, thanks to modern
