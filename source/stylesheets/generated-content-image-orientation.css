@@ -1,0 +1,7 @@
+p.bullet {
+  margin-bottom: 0em;
+}
+p.bullet:before {
+  content: url(/images/bullet.png);
+  padding: 0em 0.4em 0em 1em;
+}

@@ -1,0 +1,25 @@
+New Possibilities for Sprites
+-----------------------------
+
+The combination of `image-orientation` with the [media fragments spatial dimension][mf]
+specification offers an intriguing new alternative to the [existing approach][sprites]
+to CSS sprites using `background-image` and `background-position`.
+
+this can also be used to reduce the size of sprite
+sheets in some circumstances by removing the need to provide the same sprite in
+multiple orientations. (But see [below](#spritetradeoffs) for more details on the
+tradeoffs involved.)
+
+This is a
+particularly important caveat when considering the use of `image-orientation`
+for sprite sheets, as mentioned above: such sprite sheets would be an entirely
+different beast than the usual approach to CSS sprites today, using `<img>`
+elements rather than `background-image` to place a sprite on the page and media
+fragments rather than `background-position` to select the particular sprite to
+display. Although these sprites can't be used for backgrounds and the like, the
+combination of media fragments and `image-orientation` has significant benefits
+including tiling in both dimensions and the ability to display a sprite in any
+orientation. I suspect both techniques will turn out to be useful in some
+circumstances.
+
+
