@@ -139,6 +139,12 @@ interacts with layout in tricky ways. And <a href="http://php.net/manual/en/book
 require additional work from developers and don&rsquo;t work with images hosted outside
 of the developer&rsquo;s control.</p>
 
+<p>Edit: It turns out there <em>is</em> one browser that does respect the EXIF orientation tag
+by default in HTML documents: Mobile Safari. (And by extension other browsers on
+iOS, like Chrome, which use the same underlying engine.) This is surprising, since
+this isn&rsquo;t standards-compliant behavior, and doesn&rsquo;t match what the desktop versions
+of these browsers do.</p>
+
 <h2>CSS To The Rescue</h2>
 
 <p>These problems are all solved by the new CSS <a href="http://dev.w3.org/csswg/css-images/#the-image-orientation">image-orientation property</a>,
@@ -174,8 +180,7 @@ You can provide an angle value to rotate an image by any multiple of 90°:</p>
 </span></code></pre></td></tr></table></div></figure>
 
 
-<p>This
-can optionally be followed by a horizontal flip using this syntax:</p>
+<p>This can optionally be followed by a horizontal flip using this syntax:</p>
 
 <figure class='code'> <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 </pre></td><td class='code'><pre><code class='css'><span class='line'><span class="nt">image-orientation</span><span class="o">:</span> <span class="nt">270deg</span> <span class="nt">flip</span><span class="o">;</span>
